@@ -1,35 +1,55 @@
-<!DOCTYPE html>
-<html lang = "en-US">
-	<head>
-		<title>Juan Aguirre-Ayala</title>
-		<link rel="stylesheet" href="styles.css" />
-		<link rel="shortcut icon" type="image/png" href="img/simplelogo.png">
-	</head>
-	<body>
-		<center>
-			<h1 title = "this is a secret, shh">
-				Welcome!
-			</h1>
-		</center>
-		<center>
-			<p>
-			This website is still under development, but
-			it will feature information about me and my
-			projects!
-		</p>
-		</center>
-		<br>
-		<center>
-			<a class="iconlink" href="https://www.linkedin.com/in/jaguirre-ayala" target="_blank">
-				<img src="img/linked.png" title="LinkedIn" style="width:42px;height:42px;border:0;">
-			</a>
-			<a class ="iconlink" href="https://www.github.com/jaguirreayala" target="_blank">
-				<img src="img/git.png" title="GitHub" style="width:42px;height:42px;border:0;">
-			</a>
-			<a class="buttonlink" href="projects.html">Projects</a>
-		</center>
-		<br>
-		<center><iframe src="files/resume.pdf#toolbar=0" width="45%" height="1064px"></center>
-			</iframe>
-	</body>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="shortcut icon" type="image/png" href="img/simplelogo.png">
+</head>
+
+<body>
+
+  <div class="top-bar foundation-5-top-bar">
+    <div id="responsive-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown horizontal medium-horizontal menu" data-auto-height="true" data-animate-height="true">
+          <li><a href="./index.html">About</a></li>
+          <li><a href="./index.html">Projects</a></li>
+          <li><a href="./index.html">Experience</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="large-8 cell">
+        <h1>My name is Juan Aguirre-Ayala</h1>
+        <p>This website is still currently under construction, but pretty soon,
+          it'll have more information about me, projects, and more!</p>
+        <br>
+        <p>Currently learning Foundation 6 to develop this website. For now, please
+          visit these links to learn more about me!</p>
+        <div class="grid-x grid-padding-x">
+          <div class="large-12 cell">
+            <a href="https://www.linkedin.com/in/jaguirre-ayala/" class="button" target="_blank">LinkedIn</a>
+            <a href="https://github.com/jaguirreayala" class="button" target="_blank">Github</a>
+            <a href="files/resume.pdf" class="button" target="_blank" download>View Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
 </html>
